@@ -1,7 +1,7 @@
 print("This script was created by thewickedkarma. Follow them on github https://github.com/thewickedkarma")
 import os, subprocess
-username=input("Enter your username: ")
-password=input("Enter a password: ")
+username=input("Enter your username:")
+password=input("Enter a password:") 
 print("remember this password as it will be used while providing superuser commands on your dektop \n creating your user....have some patience")
 os.system(f"useradd -m {username}")
 os.system(f"adduser {username} sudo")
